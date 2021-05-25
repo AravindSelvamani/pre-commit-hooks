@@ -26,7 +26,7 @@ if res.returncode == 0:
     err('Error: The string "DO NOT SUBMIT" was found!')
     err(res.stdout.decode("utf-8"))
     sys.exit(1)
-elif res.returncode == 2:
-    err(f"Error invoking grep on {fname}:")
-    err(res.stderr.decode("utf-8"))
-    sys.exit(2)
+# elif res.returncode == 2:
+#     err(f"Error invoking grep on {fname}:")
+#     err(res.stderr.decode("utf-8"))
+#     sys.exit(2)
