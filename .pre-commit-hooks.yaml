@@ -1,0 +1,6 @@
+-   id: test-hook
+    name: DO NOT SUBMIT
+    description: Forbids the string "DO NOT SUBMIT".
+    entry: test_hook.py
+    language: script
+    files: '.*'
